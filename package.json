@@ -1,0 +1,23 @@
+{
+  "name": "icon-font-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-icons": "fantasticon src -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shift72/icon-font-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shift72/icon-font-generator/issues"
+  },
+  "homepage": "https://github.com/shift72/icon-font-generator#readme",
+  "dependencies": {
+    "fantasticon": "^1.2.3"
+  }
+}
