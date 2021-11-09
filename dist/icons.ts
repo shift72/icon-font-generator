@@ -1,21 +1,21 @@
 export type IconsId =
-  | "account"
-  | "favorite"
+  | "feed"
+  | "mic"
   | "search";
 
 export type IconsKey =
-  | "Account"
-  | "Favorite"
+  | "Feed"
+  | "Mic"
   | "Search";
 
 export enum Icons {
-  Account = "account",
-  Favorite = "favorite",
+  Feed = "feed",
+  Mic = "mic",
   Search = "search",
 }
 
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
-  [Icons.Account]: "61697",
-  [Icons.Favorite]: "61698",
+  [Icons.Feed]: "61697",
+  [Icons.Mic]: "61698",
   [Icons.Search]: "61699",
 };

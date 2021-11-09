@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?1daa7caa2f2c951bb1b21195588e52f0#iefix") format("embedded-opentype"),
-url("./icons.woff2?1daa7caa2f2c951bb1b21195588e52f0") format("woff2"),
-url("./icons.woff?1daa7caa2f2c951bb1b21195588e52f0") format("woff");
+    src: url("../fonts/icons.eot?1bd4a597a7115553c93b5af100ab355c#iefix") format("embedded-opentype"),
+url("../fonts/icons.woff2?1bd4a597a7115553c93b5af100ab355c") format("woff2"),
+url("../fonts/icons.woff?1bd4a597a7115553c93b5af100ab355c") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -16,12 +16,12 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-account:before {
+.icon-favorite:before {
     content: "\f101";
 }
-.icon-favorite:before {
+.icon-material-search:before {
     content: "\f102";
 }
-.icon-search:before {
+.icon-wow:before {
     content: "\f103";
 }
