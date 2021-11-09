@@ -1,7 +1,7 @@
 # icon-font-generator
 This repository generates icon fonts for [core-template](https://github.com/shift72/core-template) using the [fantasticon](https://www.npmjs.com/package/fantasticon) npm package. The necessary files are copied into core-template automatically and will override any fonts and css that already exist. The file paths for the generated files can be found in `.fantasticonrc.js`
 
-You can view the icons by going to domainname/icons.html
+You can view the icons by going to `<domainname>/icons.html`
 
 ### Setup
 1. Clone this repo into the same parent directory as core-template.
