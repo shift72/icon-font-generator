@@ -11,3 +11,7 @@ You can view the icons by going to `<domainname>/icons.html`
 2. `npm run create-icons`.
 3. In core-template, open `site/icons.html.jet`.
 4. Change the stylesheet link to point to the styles folder `<link rel="stylesheet" href="/styles/icons.css" />`
+### Usage
+`<i class="icon icon-search"></i>`
+
+A unique class is generated from the SVG name with the `icon` prefix added.
