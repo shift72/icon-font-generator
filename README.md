@@ -8,4 +8,4 @@ This repository generates icon fonts for [core-template](https://github.com/shif
 1. Add SVG icons to the `src` folder. Icons must be 24px by 24px.
 2. `npm run create-icons`.
 3. In core-template, open `site/icons.html.jet`.
-4. Change the link to point to the styles folder `<link rel="stylesheet" href="/styles/icons.css" />`
+4. Change the stylesheet link to point to the styles folder `<link rel="stylesheet" href="/styles/icons.css" />`
