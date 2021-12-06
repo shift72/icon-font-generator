@@ -1,36 +1,34 @@
 export type IconsId =
-  | "account_circle"
+  | "account-circle"
   | "add"
-  | "alert_error"
-  | "alert_warning_filled"
-  | "alert_warning_outline"
-  | "arrow_down"
-  | "arrow_left"
-  | "arrow_right"
-  | "arrow_up"
+  | "alert-error"
+  | "alert-warning-filled"
+  | "alert-warning-outline"
+  | "arrow-down"
+  | "arrow-left"
+  | "arrow-right"
+  | "arrow-up"
   | "award"
   | "bonus"
-  | "bookmark_filled"
-  | "bookmark_outline"
+  | "bookmark-filled"
+  | "bookmark-outline"
   | "browse"
-  | "carousel_indicator"
+  | "carousel-indicator"
   | "cast"
-  | "check_box_off"
-  | "check_box_on"
   | "check"
   | "close"
-  | "credit_card"
+  | "credit-card"
   | "delete"
   | "donate"
-  | "download_done"
+  | "download-done"
   | "download"
   | "downloading"
-  | "eye_off"
-  | "eye_on"
+  | "eye-off"
+  | "eye-on"
   | "facebook"
-  | "filter_horizontal"
-  | "filter_vertical"
-  | "fullscreen_exit"
+  | "filter-horizontal"
+  | "filter-vertical"
+  | "fullscreen-exit"
   | "fullscreen"
   | "gift"
   | "home"
@@ -42,22 +40,20 @@ export type IconsId =
   | "linkedin"
   | "mail"
   | "menu"
-  | "more_vertical"
-  | "notifications_filled"
-  | "notifications_outline"
-  | "open_external"
+  | "more-vertical"
+  | "notifications-filled"
+  | "notifications-outline"
+  | "open-external"
   | "pause"
-  | "play_arrow_poster"
-  | "play_arrow"
-  | "radio_button_off"
-  | "radio_button_on"
+  | "play-arrow-poster"
+  | "play-arrow"
   | "refresh"
   | "search"
   | "settings"
   | "share"
   | "star"
   | "twitter"
-  | "visa_card"
+  | "visa-card"
   | "vote";
 
 export type IconsKey =
@@ -77,8 +73,6 @@ export type IconsKey =
   | "Browse"
   | "CarouselIndicator"
   | "Cast"
-  | "CheckBoxOff"
-  | "CheckBoxOn"
   | "Check"
   | "Close"
   | "CreditCard"
@@ -111,8 +105,6 @@ export type IconsKey =
   | "Pause"
   | "PlayArrowPoster"
   | "PlayArrow"
-  | "RadioButtonOff"
-  | "RadioButtonOn"
   | "Refresh"
   | "Search"
   | "Settings"
@@ -123,38 +115,36 @@ export type IconsKey =
   | "Vote";
 
 export enum Icons {
-  AccountCircle = "account_circle",
+  AccountCircle = "account-circle",
   Add = "add",
-  AlertError = "alert_error",
-  AlertWarningFilled = "alert_warning_filled",
-  AlertWarningOutline = "alert_warning_outline",
-  ArrowDown = "arrow_down",
-  ArrowLeft = "arrow_left",
-  ArrowRight = "arrow_right",
-  ArrowUp = "arrow_up",
+  AlertError = "alert-error",
+  AlertWarningFilled = "alert-warning-filled",
+  AlertWarningOutline = "alert-warning-outline",
+  ArrowDown = "arrow-down",
+  ArrowLeft = "arrow-left",
+  ArrowRight = "arrow-right",
+  ArrowUp = "arrow-up",
   Award = "award",
   Bonus = "bonus",
-  BookmarkFilled = "bookmark_filled",
-  BookmarkOutline = "bookmark_outline",
+  BookmarkFilled = "bookmark-filled",
+  BookmarkOutline = "bookmark-outline",
   Browse = "browse",
-  CarouselIndicator = "carousel_indicator",
+  CarouselIndicator = "carousel-indicator",
   Cast = "cast",
-  CheckBoxOff = "check_box_off",
-  CheckBoxOn = "check_box_on",
   Check = "check",
   Close = "close",
-  CreditCard = "credit_card",
+  CreditCard = "credit-card",
   Delete = "delete",
   Donate = "donate",
-  DownloadDone = "download_done",
+  DownloadDone = "download-done",
   Download = "download",
   Downloading = "downloading",
-  EyeOff = "eye_off",
-  EyeOn = "eye_on",
+  EyeOff = "eye-off",
+  EyeOn = "eye-on",
   Facebook = "facebook",
-  FilterHorizontal = "filter_horizontal",
-  FilterVertical = "filter_vertical",
-  FullscreenExit = "fullscreen_exit",
+  FilterHorizontal = "filter-horizontal",
+  FilterVertical = "filter-vertical",
+  FullscreenExit = "fullscreen-exit",
   Fullscreen = "fullscreen",
   Gift = "gift",
   Home = "home",
@@ -166,22 +156,20 @@ export enum Icons {
   Linkedin = "linkedin",
   Mail = "mail",
   Menu = "menu",
-  MoreVertical = "more_vertical",
-  NotificationsFilled = "notifications_filled",
-  NotificationsOutline = "notifications_outline",
-  OpenExternal = "open_external",
+  MoreVertical = "more-vertical",
+  NotificationsFilled = "notifications-filled",
+  NotificationsOutline = "notifications-outline",
+  OpenExternal = "open-external",
   Pause = "pause",
-  PlayArrowPoster = "play_arrow_poster",
-  PlayArrow = "play_arrow",
-  RadioButtonOff = "radio_button_off",
-  RadioButtonOn = "radio_button_on",
+  PlayArrowPoster = "play-arrow-poster",
+  PlayArrow = "play-arrow",
   Refresh = "refresh",
   Search = "search",
   Settings = "settings",
   Share = "share",
   Star = "star",
   Twitter = "twitter",
-  VisaCard = "visa_card",
+  VisaCard = "visa-card",
   Vote = "vote",
 }
 
@@ -202,48 +190,44 @@ export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
   [Icons.Browse]: "61710",
   [Icons.CarouselIndicator]: "61711",
   [Icons.Cast]: "61712",
-  [Icons.CheckBoxOff]: "61713",
-  [Icons.CheckBoxOn]: "61714",
-  [Icons.Check]: "61715",
-  [Icons.Close]: "61716",
-  [Icons.CreditCard]: "61717",
-  [Icons.Delete]: "61718",
-  [Icons.Donate]: "61719",
-  [Icons.DownloadDone]: "61720",
-  [Icons.Download]: "61721",
-  [Icons.Downloading]: "61722",
-  [Icons.EyeOff]: "61723",
-  [Icons.EyeOn]: "61724",
-  [Icons.Facebook]: "61725",
-  [Icons.FilterHorizontal]: "61726",
-  [Icons.FilterVertical]: "61727",
-  [Icons.FullscreenExit]: "61728",
-  [Icons.Fullscreen]: "61729",
-  [Icons.Gift]: "61730",
-  [Icons.Home]: "61731",
-  [Icons.InfoOutline]: "61732",
-  [Icons.Language]: "61733",
-  [Icons.Letterboxd]: "61734",
-  [Icons.Library]: "61735",
-  [Icons.Link]: "61736",
-  [Icons.Linkedin]: "61737",
-  [Icons.Mail]: "61738",
-  [Icons.Menu]: "61739",
-  [Icons.MoreVertical]: "61740",
-  [Icons.NotificationsFilled]: "61741",
-  [Icons.NotificationsOutline]: "61742",
-  [Icons.OpenExternal]: "61743",
-  [Icons.Pause]: "61744",
-  [Icons.PlayArrowPoster]: "61745",
-  [Icons.PlayArrow]: "61746",
-  [Icons.RadioButtonOff]: "61747",
-  [Icons.RadioButtonOn]: "61748",
-  [Icons.Refresh]: "61749",
-  [Icons.Search]: "61750",
-  [Icons.Settings]: "61751",
-  [Icons.Share]: "61752",
-  [Icons.Star]: "61753",
-  [Icons.Twitter]: "61754",
-  [Icons.VisaCard]: "61755",
-  [Icons.Vote]: "61756",
+  [Icons.Check]: "61713",
+  [Icons.Close]: "61714",
+  [Icons.CreditCard]: "61715",
+  [Icons.Delete]: "61716",
+  [Icons.Donate]: "61717",
+  [Icons.DownloadDone]: "61718",
+  [Icons.Download]: "61719",
+  [Icons.Downloading]: "61720",
+  [Icons.EyeOff]: "61721",
+  [Icons.EyeOn]: "61722",
+  [Icons.Facebook]: "61723",
+  [Icons.FilterHorizontal]: "61724",
+  [Icons.FilterVertical]: "61725",
+  [Icons.FullscreenExit]: "61726",
+  [Icons.Fullscreen]: "61727",
+  [Icons.Gift]: "61728",
+  [Icons.Home]: "61729",
+  [Icons.InfoOutline]: "61730",
+  [Icons.Language]: "61731",
+  [Icons.Letterboxd]: "61732",
+  [Icons.Library]: "61733",
+  [Icons.Link]: "61734",
+  [Icons.Linkedin]: "61735",
+  [Icons.Mail]: "61736",
+  [Icons.Menu]: "61737",
+  [Icons.MoreVertical]: "61738",
+  [Icons.NotificationsFilled]: "61739",
+  [Icons.NotificationsOutline]: "61740",
+  [Icons.OpenExternal]: "61741",
+  [Icons.Pause]: "61742",
+  [Icons.PlayArrowPoster]: "61743",
+  [Icons.PlayArrow]: "61744",
+  [Icons.Refresh]: "61745",
+  [Icons.Search]: "61746",
+  [Icons.Settings]: "61747",
+  [Icons.Share]: "61748",
+  [Icons.Star]: "61749",
+  [Icons.Twitter]: "61750",
+  [Icons.VisaCard]: "61751",
+  [Icons.Vote]: "61752",
 };
